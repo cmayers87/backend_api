@@ -2,7 +2,7 @@
 Template to create a Django app with React frontend
 
 ## Quick Start
-\# Install dependencies
+<pre><code>\# Install dependencies
 npm install
 
 \# Serve API on localhost:8000
@@ -12,4 +12,4 @@ python base_app/manage.py runserver
 npm run dev
 
 \# Build for production
-npm run build
+npm run build</code></pre>
