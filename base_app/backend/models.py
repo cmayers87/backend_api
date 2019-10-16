@@ -11,6 +11,10 @@ class Model1(models.Model):
     text = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        # managed = False
+        db_table = 'Model1_Name'
+
 
 class Model2(models.Model):
 
