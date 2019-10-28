@@ -80,9 +80,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'Standards',
-        'HOST': 'densql.eogresources.com',
-        'USER': 'denstreamsets',
-        'PASSWORD': 'Grande16',
+        'HOST': '',
+        'USER': '',
+        'PASSWORD': '',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
         }
