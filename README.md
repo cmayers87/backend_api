@@ -1,5 +1,5 @@
 # Django-React-Template
-Template to create a Django app with React frontend
+Template to create a Django api with React frontend. The frontend and backend are seperate so you can use one without the other.
 
 ## Quick Start
 <pre><code># Install dependencies
