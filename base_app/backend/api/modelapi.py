@@ -25,18 +25,3 @@ class Model3ViewSet(viewsets.ModelViewSet):
         permissions.AllowAny
     ]
     serializer_class = Model3Serializer
-
-# class AllUisRealtimevaluesViewSet(viewsets.ModelViewSet):
-#     queryset = AllUisRealtimevalues.objects.raw("""
-# SELECT TOP 100 ROW_NUMBER() OVER (PARTITION BY FacilityID ORDER BY FACILITYID) as rk, *
-# FROM [staging].[dbo].[All_UIS_RealtimeValues] A""")
-
-#     permission_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = AllUisRealtimevaluesSerializer
-
-#     def list(self, request):
-#         queryset = self.get_queryset()
-#         serialzer = AllUisRealtimevaluesSerializer(list(queryset), many=True)
-#         return Response(serialzer.data)
